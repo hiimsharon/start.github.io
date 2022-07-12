@@ -1,0 +1,216 @@
+<!DOCTYPE>
+<html>
+<head>
+  <title>start!</title>
+  <link rel="justpicture.css" href="style.css">
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:  #50495e; }
+li { float: left;}
+li a{ 
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover { background-color: #111111; }
+
+.ferns {
+  background-color:tomato; color: white; border:2px solid black; margin:20px; padding:20px;}
+</style>
+</head>
+
+<ul>
+<li><a href="file:///C:/Users/user/Desktop/css+html/A-0704.htm">A-0704</a></li>
+<li><a href="#about">about</a></li>
+<li><a href="#news">news</a></li>
+<li><a href="file:///C:/Users/user/Desktop/css+html/W3Stry0707.htm">W3S...</a></li>
+<li><a href="https://www.w3schools.com/tags/">0709各種tags</a></li>
+</ul>
+
+<!--新版下拉式選單--> 
+https://codepen.io/remilaudanski/pen/gbBGyN
+<nav>
+<label for="touch"><span>MENU</span></label>
+<inpu type="checkbox" id="touch">
+<ul class="menu">
+<li><a href="#">A-0704</a></li>
+<li><a href="#">about</a></li>
+<li><a href="#">news</a></li>
+<li><a href="#">W3S...</a></li>
+<li><a href="https://www.webdesign-inspiration.com/">網站設計參考們</a></li>
+</ul></nav>
+<style>
+body {background-color: #ededed;font-family:"Open Sans", sans-serif;}
+h1 {
+  padding: 40px;
+  text-align: center;
+  font-size:1.5em;
+}
+li a { text-decoration: none; color: #2d2f31; }
+nav {
+  width: 300px;
+  background: #d9d9d9;
+  margin: 20px auto;
+}
+span {
+  padding: 30px;
+  background: #2d2f31;
+  color: white;
+  font-size: 1.2em;   <!--標題大小-->
+  font-variant: small-caps;
+  cursor: pointer;
+  display: block;
+}
+span::after {
+  float: right;
+  right: 10%;
+  content:"+";
+}
+.menu {
+  clear: both;
+  width: 100%;
+  height:0px;
+  overflow: hidden;
+  text-align: center;
+  transition: height .4s ease;
+}
+.bottom li {padding : 30px;}
+#touch {position: absolute; opacity: 0; height: 0px;}    
+#touch:checked + .slide {height: 300px;} 
+</style>
+
+
+<img src="egg.jpg" alt="" width="200" height="150" text-align:left>
+
+<h3> the first pargraph </h3>
+<style>
+h3 {
+  text-align:center;
+  border-style:outset;
+}
+</style>
+<div class="a">HELLO WORLD</div>
+<div class="b">HELLO WORLD</div>
+<div class="c">HELLO WORLD</div>
+<style>
+.a { text-align:center;background-color: #d14a0f; color: white;}
+.b { text-align:center;background-color: #777799; color: #FFF;}
+.c { text-align:center;background-color: rgb(153, 102, 153); color: #a9dfbf;}
+</style>
+
+<div class="bottom">
+<a href="https://www.w3schools.com/html/html_classes.asp">0709請看</a></div>
+<a href="https://www.petfinn.com/">網站設計</a>
+
+
+<p>1.</p>
+
+<table>
+<thead>
+<tr><th colspan="2">The title</th></tr>
+</thead>
+<tbody><tr><td>left</td><td>right</td></tr></tbody>
+</table>
+
+<style>
+table, 
+td { border:1px soild #333;}
+thead, 
+tfoot { background-color:#333; color:#fff;}
+</style>
+
+<p>2.</p>
+
+<table>
+<tr><th><font color="#cd6155"> 右心房 </th><th><font color="#cd6155">  左心房 </th></tr>
+<tr><th><font color="#cd6155"> 右心室 </th><th><font color="#cd6155">  左心室 </th></tr>
+</table>
+
+<style>
+table, th, td {
+  border: 1.5px solid  #cd6155 ;
+  //方的框框 border-collapse: collapse;
+  border-radius:10px;  //圓框框
+}
+  //th, td {  border-style:dotted;} 虛線
+  //th:nth-child(even) 大標 ,td:nth-child(odd) 下面的表格 { background-color: #D6EEEE;}
+</style>
+<a href="https://www.w3schools.com/html/html_table_borders.asp">表格大全です</a><hr>
+
+<p>tr:nth-child(odd){ 是橫的 <br>
+th 是 大標, td 是下面表格<br><br>
+</p>
+<p><dt>脊椎動物</dt><dd>-魚鳥兩棲</dd><dt>無脊椎動物</dt><dd>-軟體環節棘皮</dd></p>
+<br>
+<p> ul style="list-style-type:disc;" 加上 li 是點點起頭，circle空心圓，<br>
+在ul li 裡再加ul li會變成實心圓帶空心圓，ex:<ul><li>A</li><ul><li>BB</li></ul></li></ul></p>
+
+
+
+
+<br><p>ol li 列出123，ol type="i" 可改成I A a </p>
+<table class='evengreen'>
+  <tr><th>蕨類</th><th>濕度</th><th>陽光</th></tr>
+  <tr><td>鐵線蕨</td><td>50%</td><td>75%</td></tr>
+  <tr><td>長長蕨</td><td>60%</td><td>40%</td></tr>
+  <tr><td> 巨蕨 </td><td>30%</td><td>50%</td></tr>
+</evengreen>
+<br>
+<div class="ferns">
+<h2>鐵線蕨</h2><p>長在羅漢松旁邊</p></div>
+<div class="ferns">
+<h2>長長蕨</h2><p>不宜水耕</p></div>
+<div class="ferns">
+<h2>巨蕨!</h2><p>拒絕</p></div>
+<br>
+
+<div class="bottom"><p>   按我看看</p></div>
+<style>
+.bottom {
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    line-height: 40px;
+    color: #000;
+    background-color: transparent;
+    border: 1px solid #000;
+    position: relative;
+    transition: all .3s linear;
+}
+.bottom > p{
+    position: relative;
+    z-index: 1;
+}
+.bottom::before{
+    content: "";
+    width: 0%;
+    height: 100%;
+    display: block;
+    background-color: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .3s ease;
+}
+.bottom:hover{ color: #fff;}
+.bottom:hover::before{  width: 100%;}
+</style>
+<br>
+
+<div class="goTop">
+  <a href="#" class="goTopBtn jq-goTop">
+    <i class="fas fa-arrow-alt-circle-up fa-3x"></i>
+  </a>
+</div>
+</body>
+</html>

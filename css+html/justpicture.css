@@ -1,0 +1,27 @@
+body {
+background: #FFF;
+}
+
+h1 {
+  text-align:center;
+  border: 10px soild powderblue;
+  padding: 10px;
+}
+
+.a { background-color: teal; color: white;}
+.b { background-color: #777799; color: #FFF;}
+.c { background-color: rgb(153, 102, 153); color: rgb(255, 255, 204);}
+
+
+.evengreen {
+  border-collapse: collapse;  橫的不切割
+  width: 100%; //每一格的寬度
+}
+
+th, td {
+  text-align: left; //靠左
+  padding: 15px;  //上下的高度
+}
+tr:nth-child(even) {
+  background-color: #D6EEEE;
+}

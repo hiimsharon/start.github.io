@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>   " ' "</title>
+<link href='A-0704.css' rel='stylesheet'>
+<background: #35577D>
+</head>
+<p>Hello World</p>
+<h1> CSS </h1>
+<p style='color: #FFF; font-size: 20px;'>I'm learning to code!</p>
+內聯樣式
+<hr><a href="https://htmlcolorcodes.com/">color！</a><br>
+<a href="https://www.csie.ntu.edu.tw/~r91112/myDownload/WEB/html.html">語法總整理</a><br><br>
+<hr>
+<a>CSS part!<br><br>
+假設 h1 class='A' id='B'，</a><br><a>可以寫成 h1 {} </a><br><a>或  .class {} </a><br><a>或#id {font-family: cursive;}
+</a>
+sh {
+  color: green;
+  font-weight: bold;}
+可以併成
+<sh class='green bold'> ... </sh></a>
+<hr>
+0704 改字的大小 用font-size:18px;
+</a>
+<h2>Hello World!</h2>
+</body>
+</html>

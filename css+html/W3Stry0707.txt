@@ -1,0 +1,37 @@
+<html>
+<head>
+<title>trytry</title>
+
+<background: #FFF>
+</head>
+
+<img src="古城.png" alt="old castle" width="1250" height="200">
+<!--備註-->
+<p style="color:midnightblue;">This  <!--great text-->is a paragraph</p>
+
+<p>Formatting : <small>little</small> and <em>em</em><br>
+用螢光筆把<mark>重點</mark>畫起來或是用<strong>粗體字</strong>，再刪掉<del>不重要</del>的字，加個<ins>底線</ins>!</p>
+<p>There are<sup> 1F</sup> and<sub> B1</sub>:)</p>
+<p>here is <q> important word </q> lol.</p>
+ <p>The <abbr title="World Health Organization">WHO</abbr> is blablabla.</p> 
+<address>
+younkay dacha <br>
+tainan<br>
+taiwan
+</address>
+<bdo dir="rtl">ABCD</bdo>
+<p style="background-color:Tomato;">Tomoto</p>
+<p style="background-color:hsla(9, 100%, 64%, 0.5);">beautiful</p>
+<p style="color:DodgerBlue;">hi</p>
+<p style="border:2px soild DoderBlue;">Hello Word</p>
+
+<link https://www.w3schools.com/html/html_colors_rgb.asp>
+<style>
+table { border-collapse: collapse; width:100%}
+th, td {
+text-align:left; padding:8px;}
+tr:nth-child(even) {bacjground-color: #D6EEEE;}
+</style>
+<table>
+
+</html>

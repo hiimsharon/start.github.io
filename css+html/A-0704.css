@@ -1,0 +1,26 @@
+body {
+background: #35577D;
+}
+
+p {
+  font-family: Georgia;
+  text-align:center;
+}
+
+h1 {
+  color: maroon;
+}
+
+h2 {
+color: #FFF;
+  font-size: 2em;
+  padding-top: 100px;
+font-family: Georgia;
+}
+
+aword {
+  color: midnightblue;
+  font-family: 'Covered By Your Grace', sans-serif;
+}
+
+
